@@ -1,0 +1,91 @@
+body{
+    font-family:sans-serif;
+    font-size: 13px;
+}
+
+header{
+    margin-top: 30px;
+}
+
+.padding{
+    padding-left: 15px;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.fotoCuadrados{
+    float: right;
+    margin-right: 20px;
+    margin: -20px;
+}
+
+.izquierdaSobre{
+    margin-top: -20px;
+}
+
+.medio{
+    width:600px;
+    height:400px;
+    margin:0px auto;
+    text-align:center;
+    padding-top: 165px;
+}
+
+a{
+    color:rgb(80, 80, 80);
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+span{
+    color: blue;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+span:hover{
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    position: absolute;
+    bottom: 5px;
+    width: 99%;
+    
+    color: rgb(80, 80, 80);
+}
+
+.borde{
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+p{
+    padding-left: 15px;
+}
+
+.botones{
+    background-color: rgb(241, 241, 241);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.botones:hover{
+    text-decoration: none;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+.imguser{
+    border-radius: 50px;
+}
